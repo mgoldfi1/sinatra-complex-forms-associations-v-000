@@ -1,7 +1,7 @@
 <h1>Update Pet</h1>
 
 <form method="POST" action="/pets/<%=@pet.id%>">
-  <input type="text" name="pet[name]" id="pet_name">
+  <input type="text" name="pet_name" id="pet_name">
 
   <br></br>
   <%@owners.each do |owner|%>
